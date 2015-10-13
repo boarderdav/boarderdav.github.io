@@ -9,6 +9,7 @@
    <!-- Bootstrap -->
    <!-- <link href="css/bootstrap.min.css" rel="stylesheet">-->             
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/pure-drawer.css">
    <link rel="stylesheet" href="css/mobile.css">
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,10 +22,28 @@
   </head>
   
   <body>
+  
     
+  <div class="pure-container" data-effect="pure-effect-push">
+    <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left"/>
+    <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left"><span class="pure-toggle-icon"></span></label>
+
+    <nav class="pure-drawer" data-position="left">
+      <div class="col-xs-12 text-center">
+        <p style="padding: 40px 20px; margin: 0;"></p>
+        <a href="#"><img style="width:30%" src="img/icon1.png" alt="icon1"/></a><br>
+        <p>Presto</p>
+        <a href="#"><img style="width:30%" src="img/icon2.png" alt="icon2"/></a><br>
+        <p>Quote</p>
+        <a href="#"><img style="width:30%" src="img/icon3.png" alt="icon3"/></a>
+        <p>Support</p>
+      </div>
+    </nav>   
     
-<!--<div style="background-color:rgba(101,101,101,0.60); padding-top:50%">  --> 
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" style="background-color:rgba(101,101,101,0.60); background:rgba(101,101,101,0.9)">
+    <div class="pure-pusher-container">
+        <div class="pure-pusher">
+        
+          <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" style="background-color:rgba(101,101,101,0.60); background:rgba(101,101,101,0.9)">
 
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -37,8 +56,8 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/img1.jpg" alt="image 1">
-      <div class="carousel-caption" style="color:#53585f">
+      <img src="img/img1c.jpg" alt="image 1">
+      <div class="carousel-caption">
         <h1>MobileWorks</h1>
         <h3>Technology for Mobile Enterprise</h3>
         <div class="row text-center">
@@ -59,7 +78,7 @@
     </div>
 
     <div class="item">
-      <img src="img/img2.jpg" alt="image2">
+      <img src="img/img2a.jpg" alt="image2">
       <div class="carousel-caption" >
         <h1>MobileWorks</h1>
         <h3>Technology for Mobile Enterprise</h3>
@@ -81,8 +100,8 @@
     </div>
 
     <div class="item">
-      <img src="img/img3.jpg" alt="image3">
-      <div class="carousel-caption" style="color:#53585f">
+      <img src="img/img3a.jpg" alt="image3">
+      <div class="carousel-caption"><!--style="#53585"-->
         <h1>MobileWorks</h1>
         <h3>Technology for Mobile Enterprise</h3>
         <div class="row text-center">
@@ -103,7 +122,7 @@
     </div>
 
     <div class="item">
-      <img src="img/img4.jpg" alt="image4">
+      <img src="img/img4a.jpg" alt="image4">
       <div class="carousel-caption" >
         <h1>MobileWorks</h1>
         <h3>Technology for Mobile Enterprise</h3>
@@ -136,6 +155,16 @@
   </a>
 </div>
 <!--</div>-->
+                        
+        </div>
+    </div>
+    
+    <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label> 
+        
+   </div> <!--END OF PURE DRAWER COVERING-->
+    
+
+
    
     
     
@@ -144,14 +173,15 @@
     
     
     
-    <h1>Hello, world!</h1>
+    <h1 class="text-center">Mobile Works Website!!!</h1>
     <div class="site-wrapper">
+      <h1 class="text-center">Mobile Works Website</h1>
       <div class="col-xs-4">
-        <h1>David Jenkins</h1> 
+
         <button class="btn btn-primary">Select Me</button>
       </div>
       <div class="col-xs-8">
-        <p class="text-center">David Jenkins testing site for Mobile Works.</p>
+        <p class="text-center">MobileWorks testing site for Mobile Works.</p>
         <div class="panel panel-default">
           <div class="panel-heading">Panel heading without title</div>
             <div class="panel-body"> Panel content</div>
@@ -169,6 +199,12 @@
    
       
     </div>
+    
+    
+    
+
+    
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 

@@ -225,7 +225,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', end
 background-repeat:repeat-x}
 */
 
-.vertical .carousel-inner {
+.v/*ertical .carousel-inner {
   height: 100%;
 }
 
@@ -265,3 +265,4 @@ background-repeat:repeat-x}
 .carousel.vertical .item {
    left: 0;
 }
+*/
